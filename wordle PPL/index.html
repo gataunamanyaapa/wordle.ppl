@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wordle Digit Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Wordle: Guess the Digits</h1>
+    <div id="board"></div>
+    <div class="input-container">
+      <input type="text" id="input" maxlength="5" placeholder="Enter 5 digits" />
+      <button id="submit">Submit</button>
+      <button id="retry" style="display: none;">Retry</button>
+    </div>
+    <p id="message"></p>
+    <p id="attempts">Attempts Left: <span id="remaining">6</span></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
